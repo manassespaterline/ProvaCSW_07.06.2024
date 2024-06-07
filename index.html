@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Prova CSW - Manassés</title>
+</head>
+<body>
+
+    <h4>Aluno: Manassés Feliciano Paterline</h4>
+    <h4>Turma: CC1MC</h4>
+
+    <h1>Formulário - Média do Aluno</h1>
+
+    <form id="formulario">
+        <label for="nome">Nome:</label>
+        <input type="text", id="nome"><br><br>
+
+        <label for="matricula">Matrícula:</label>
+        <input type="text", id="matricula"><br><br>
+
+        <label for="notaum">Nota 1:</label>
+        <input type="number", id="notaum", min="0", max="10"><br><br>
+
+        <label for="notadois">Nota 2:</label>
+        <input type="number", id="notadois", min="0", max="10"><br><br>
+    </form>
+
+    <div>
+        <button onclick="criarTabela()">Enviar</button>
+    </div>
+
+    <h2>Tabela - Verificar Situação</h2>
+
+    <table id="tabela">
+        <thead>
+            <th>Nome</th>
+            <th>Matrícula</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+
+            <th>Média</th>
+            <th>Situação</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
